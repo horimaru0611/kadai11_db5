@@ -1,0 +1,55 @@
+#calendar {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 10px;
+}
+
+.day {
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.selected {
+    background-color: #add8e6; /* ライトブルー */
+    color: #000; /* テキストカラー */
+}
+
+.success{
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tick{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    .jumbotron{
+        margin: auto;
+        align-items: center;
+    }
+}
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+th{
+    background-color:#f9f9f9;
+    width: auto;
+    
+}
